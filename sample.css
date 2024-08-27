@@ -1,34 +1,49 @@
 body {
-    background-color: rgb(33, 45, 49);
-  }
   
-  h1 {
-    color: rgb(0, 255, 42);
-    text-align: center;
-    font-style: arial;
+    background-image: url(https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?t=st=1724743173~exp=1724746773~hmac=9dd8383477503105960dbbb9bc9b340f456e0bc4a302531e7bd554d29e28224b&w=1380);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
   }
+p{
+  
+}
+
+ 
   
   input {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     text-align: center;
-     font-style: italic;
+    font-style: italic;
+    width: 60%;
   }
 textarea {
-  color: rgb(204, 0, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   font-style: italic;
 
 }
-
-.button1.button1:hover {
-  background-color: #555555;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.button1 {
+  border-radius: 12px;
   font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.1s;
-  cursor: pointer;
+  padding: 9px 8px
+  
+}
+
+.button1:hover {
+  background-color: #555555;
+}
+
+.Form1 { 
+  background-color: rgb(99, 151, 151);
+  border-radius: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
 }
