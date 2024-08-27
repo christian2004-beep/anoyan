@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(33, 45, 49);
+  }
+  
+  h1 {
+    color: rgb(0, 255, 42);
+    text-align: center;
+    font-style: arial;
+  }
+  
+  input {
+    color: rgb(255, 0, 0);
+    text-align: center;
+     font-style: italic;
+  }
+textarea {
+  color: rgb(204, 0, 255);
+  text-align: center;
+  font-style: italic;
+
+}
